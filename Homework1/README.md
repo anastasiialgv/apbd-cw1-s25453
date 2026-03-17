@@ -1,1 +1,3 @@
-Operacja merge nie mogła zostać wykonana jako fast-forward, gdyż na gałęzi main pojawiły się nowe commity po utworzeniu rozgałęzienia, co doprowadziło do rozbieżności historii.
+1. Operacja merge nie mogła zostać wykonana jako fast-forward, gdyż na gałęzi main pojawiły się nowe commity po utworzeniu rozgałęzienia, co doprowadziło do rozbieżności historii.
+2. Merge zachowuje pełną historię i tworzy dodatkowy commit łączący gałęzie, natomiast rebase „przepisuje” historię, przenosząc Twoje zmiany na koniec głównej gałęzi, aby uzyskać jedną, prostą linię.
+3. Konflikt w pliku Program.cs został rozwiązany poprzez ręczną edycję kodu. Usunąłem znaczniki konfliktu i świadomie połączyłem zmiany z obu gałęzi.
