@@ -36,7 +36,14 @@ public class StatisticsHelper
     
     public static int CalculateMin(int[] values)
     {
+        int min = 100000000;
+        foreach (int value in values)
+        {
+            if (value < min)
+                min = value;
+        }
 
+        return min;
     }
 
     public void CheckParity()
