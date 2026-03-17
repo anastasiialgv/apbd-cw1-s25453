@@ -33,6 +33,11 @@ public class StatisticsHelper
 
         return max;
     }
+    
+    public static int CalculateMin(int[] values)
+    {
+
+    }
 
     public void CheckParity()
     {
