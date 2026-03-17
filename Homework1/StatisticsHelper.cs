@@ -38,7 +38,7 @@ public class StatisticsHelper
     {
         if (lista == null || lista.Count == 0)
         {
-            Console.WriteLine("Error: The list is empty. Cannot check parity."); 
+            Console.WriteLine("The list is empty. Cannot check parity."); 
             return;
         }
         foreach (var number in lista)
