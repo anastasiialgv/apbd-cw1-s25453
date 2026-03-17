@@ -1,0 +1,1 @@
+Operacja merge nie mogła zostać wykonana jako fast-forward, gdyż na gałęzi main pojawiły się nowe commity po utworzeniu rozgałęzienia, co doprowadziło do rozbieżności historii.
