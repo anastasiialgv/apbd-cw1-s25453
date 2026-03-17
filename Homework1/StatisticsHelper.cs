@@ -11,6 +11,17 @@ public class StatisticsHelper
 
     Func<int, bool> parity = n => n%2 == 0;
 
+    public static int CalculateAverage(int[] values)
+    {
+        int sum = 0;
+        foreach (int value in values)
+        {
+            sum += value;
+        }
+
+        return sum / values.Length;
+    }
+
     public void CheckParity()
     {
         if (lista == null || lista.Count == 0)
